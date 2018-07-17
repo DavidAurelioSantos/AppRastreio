@@ -4,9 +4,9 @@ public class Curso {
 
     private String nome;
     private String descricao;
-    private String estado;
+    private EstadoAtual estado;
 
-    public Curso(String nome, String descricao, String estadoAtual) {
+    public Curso(String nome, String descricao, EstadoAtual estadoAtual) {
         this.nome = nome;
         this.descricao = descricao;
         this.estado = estadoAtual;
@@ -27,11 +27,11 @@ public class Curso {
         this.descricao = descricao;
     }
 
-    public String getEstadoAtual() {
+    public EstadoAtual getEstadoAtual() {
         return estado;
     }
 
-    public void setEstadoAtual(String estadoAtual) {
+    public void setEstadoAtual(EstadoAtual estadoAtual) {
         this.estado = estadoAtual;
     }
 
